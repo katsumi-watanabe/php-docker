@@ -10,3 +10,6 @@ composer create-project laravel/laravel (filename)
 docker build -t (filename) .
 ```
 ※Dockerfileと同じ階層で実行する。<br>
+
+
+docker-compose up -d 
