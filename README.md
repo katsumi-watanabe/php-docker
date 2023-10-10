@@ -25,9 +25,9 @@ docker-compose up -d
 docker-compose down
 ```
 
-全て停止:　Portが被って起動できない時に使用する
+全てのコンテナ停止:　Portが被って起動できない時に使用する
 ```shell:title
-docker stop a9800d8d51b5
+docker stop $(docker ps -q)
 ```
 
 ## ４０４エラー
