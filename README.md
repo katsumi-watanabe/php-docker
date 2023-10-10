@@ -20,9 +20,14 @@ composer create-project laravel/laravel (filename)
 docker-compose up -d
 ```
 
-コンテナの停止: docker-compose downコマンドを使用してすべてのサービスを一度に停止します。
+コンテナの停止: docker-compose downコマンドを使用してすべてのサービスを一度に停止します
 ```shell:title
 docker-compose down
+```
+
+全て停止:　Portが被って起動できない時に使用する
+```shell:title
+docker stop a9800d8d51b5
 ```
 
 ## ４０４エラー
