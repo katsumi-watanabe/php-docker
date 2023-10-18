@@ -20,6 +20,11 @@ composer create-project laravel/laravel (filename)
 docker-compose up -d
 ```
 
+ファル書き換え: .gitignoreへdocker-compose.ymlを追加
+```shell:title
+echo "docker-compose.yml" >> .gitignore
+```
+
 コンテナの停止: docker-compose downコマンドを使用してすべてのサービスを一度に停止します
 ```shell:title
 docker-compose down
